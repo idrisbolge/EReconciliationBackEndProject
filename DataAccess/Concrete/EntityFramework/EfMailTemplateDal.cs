@@ -5,8 +5,7 @@ using Entities.Concrete;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCompanieDal : EfEntityRepositoryBase<Company, ContextDb>, ICompanyDal 
+    public class EfMailTemplateDal : EfEntityRepositoryBase<MailTemplate, ContextDb>, IMailTemplateDal
     {
     }
-
 }
